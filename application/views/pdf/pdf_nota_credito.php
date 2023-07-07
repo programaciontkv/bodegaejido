@@ -184,7 +184,7 @@
                                 
                             </table>
                         </td>
-                        <td colspan="2"><strong>Subtotal 12%</strong></td>
+                        <td colspan="2"><strong>Subtotal <?php echo $iva  ?>%</strong></td>
                         <td class="numerico"><?php echo number_format($nota->ncr_subtotal12,$dec)?></td>
                     </tr>
                     <tr>
@@ -209,7 +209,7 @@
                         <td class="numerico"><?php echo number_format($nota->ncr_total_descuento,$dec)?></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><strong>IVA 12%</strong></td>
+                        <td colspan="2"><strong>IVA <?php echo $iva  ?>%</strong></td>
                         <td class="numerico"><?php echo number_format($nota->ncr_total_iva,$dec)?></td>
                     </tr>
                     <tr>
